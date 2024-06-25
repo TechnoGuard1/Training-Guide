@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-            .video-container {
+           .video-container {
                 position: relative;
                 padding-bottom: 56.25%; /* 16:9 aspect ratio */
                 height: 0;
@@ -22,7 +22,26 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-            }
+            }	
+			.container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
         </style>
 	</head>
 	<body class="is-preload">
@@ -32,7 +51,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">TechnoGuard</a>
+						<a href="https://technoguard.us/" class="logo">TechnoGuard</a>
 					</header>
 					
 				<!-- Nav -->
